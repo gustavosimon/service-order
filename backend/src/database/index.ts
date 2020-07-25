@@ -1,3 +1,3 @@
 import { createConnection } from 'typeorm';
 
-createConnection().then(() => console.log('teste'));
+createConnection().then(() => console.log('Banco Up!'));
