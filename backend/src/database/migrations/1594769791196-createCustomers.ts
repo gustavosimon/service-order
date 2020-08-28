@@ -24,6 +24,7 @@ export class createCustomers1594769791196 implements MigrationInterface {
           {
             name: 'register_number',
             type: 'int',
+            isUnique: true,
             precision: 14,
           },
           {
