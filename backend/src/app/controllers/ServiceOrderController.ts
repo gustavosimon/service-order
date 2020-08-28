@@ -7,7 +7,6 @@ import ServiceOrder from '../models/ServiceOrder';
 export default class ServiceOrderController {
   public async create(request: Request, response: Response): Promise<Response> {
     const {
-      owner_id,
       operator_id,
       customer_id,
       product_id,
@@ -18,7 +17,7 @@ export default class ServiceOrderController {
     const createServiceOrder = new CreateServiceOrder();
 
     const serviceOrder = await createServiceOrder.execute({
-      owner_id,
+      owner_id: request.user.id,
       operator_id,
       customer_id,
       product_id,
