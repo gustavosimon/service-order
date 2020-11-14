@@ -2,7 +2,7 @@
 
 [FLUX](https://whimsical.com/projeto-agora-vai-GVXWR3Z6FCVgDrurw2TGHL)
 
-[Tables schema](https://www.google.com)
+[Tables schema](https://docs.google.com/spreadsheets/d/105h5Ya5CY1xpploQ-LrEVM8HLtp17ZKPx6scJwxmMPA/edit)
 
 ### Backend
 
